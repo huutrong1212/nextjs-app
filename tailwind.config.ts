@@ -4,9 +4,19 @@ module.exports = {
   theme: {
     container: {
       center: true,
-      padding: '2rem',
+      padding: {
+        DEFAULT: '24px',
+        sm: '24px',
+        md: '24px',
+        lg: 0,
+        xl: 0,
+      },
       screens: {
-        '2xl': '1400px',
+        sm: '100%',
+        md: '100%',
+        lg: '960px',
+        xl: '1140px',
+        '2xl': '1200px',
       },
     },
     extend: {
@@ -229,8 +239,7 @@ module.exports = {
         'accordion-up': 'accordion-up 0.2s ease-out',
       },
       backgroundImage: {
-        login: "url('./images/img_login.png')",
-        forgot_password: "url('./images/pattern.png')",
+        nav_banner: "url('/public/background.svg)",
       },
     },
   },

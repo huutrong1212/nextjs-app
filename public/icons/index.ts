@@ -1,4 +1,16 @@
 export { default as LogoIcon } from './logo';
+export { default as LogoDevelopers } from './logo-developers';
 export { default as FacebookIcon } from './facebook';
 export { default as LinkInIcon } from './link-in';
 export { default as YoutubeIcon } from './youtubeIcon';
+export { default as QuoteIcon } from './quote';
+export { default as CheckedIcon } from './checked';
+export { default as ReadOnlyIcon } from './read-only-icon';
+export { default as ClearInputIcon } from './clear-input-icon';
+export { default as CheckOutlineIcon } from './check-outline';
+export { default as CircleInformationIcon } from './circle-information';
+export { default as CurvedArrowIcon } from './curved-arrow';
+export { default as MenuIcon } from './menu';
+export { default as EmptyIcon } from './empty-icon';
+export { default as NavbarBackground } from './background';
+export * from './not-found-icon';

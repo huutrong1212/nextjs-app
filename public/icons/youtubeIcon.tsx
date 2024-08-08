@@ -8,8 +8,8 @@ const YoutubeIcon = () => {
         fill="white"
       />
       <path
-        fill-rule="evenodd"
-        clip-rule="evenodd"
+        fillRule="evenodd"
+        clipRule="evenodd"
         d="M17.0303 24.916V15.0854L24.8624 19.9996L17.0303 24.916Z"
         fill="#232525"
       />
